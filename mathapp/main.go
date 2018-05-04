@@ -176,6 +176,6 @@ func variablefunc() {
 	book1.id = 1
 
 	mymath.TypeChange() //应用包中方法名称首字母大写，则其他包可见，否则不可见
-	// a := time.Now()
+	_ = time.Now()
 	fmt.Println(time.Second)
 }
